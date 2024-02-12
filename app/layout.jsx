@@ -7,17 +7,17 @@ import "./global.css";
 export default function RootLatout({ children }) {
   return (
     <html lang='en' className={montserrat.variable}>
-      <body className=' flex flex-col min-h-screen font-montserrat'>
+      <body className='flex flex-col min-h-screen font-montserrat'>
         <header className='bg-[#FFD4D0] pt-8 px-36'>
           <Header />
 
           <div className='flex flex-row items-center pt-10 '>
             <div className='flex flex-col gap-8'>
-              <div className='font-normal text-xl'>
+              <div className='text-xl font-normal'>
                 <p>UX Designer</p>
               </div>
               <div>
-                <h1 className='font-bold text-5xl '>Hi There, I’m </h1>
+                <h1 className='text-5xl font-bold '>Hi There, I’m </h1>
               </div>
               <div className='text-[#FC3314] font-bold text-5xl'>
                 Sarah Jones
@@ -29,9 +29,9 @@ export default function RootLatout({ children }) {
                   together.
                 </p>
               </div>
-              <div className='flex flex-row gap-5 items-center'>
+              <div className='flex flex-row items-center gap-5'>
                 <div>
-                  <button className='py-2 px-10 bg-black text-white text-base font-bold'>
+                  <button className='px-10 py-2 text-base font-bold text-white bg-black'>
                     Hire Me
                   </button>
                 </div>
@@ -47,7 +47,7 @@ export default function RootLatout({ children }) {
             </div>
           </div>
         </header>
-        <main className='grow py-8 px-36'>{children}</main>
+        <main className='grow  bg-white'>{children}</main>
         <footer className='py-8 px-36'>
           <Footer />
         </footer>
