@@ -47,8 +47,8 @@ export default function RootLatout({ children }) {
             </div>
           </div>
         </header>
-        <main className='grow  bg-white'>{children}</main>
-        <footer className='py-8 px-36'>
+        <main className='bg-white grow'>{children}</main>
+        <footer className='py-8 px-36 bg-[#1F1F1F] text-white'>
           <Footer />
         </footer>
       </body>
